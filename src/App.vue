@@ -1,12 +1,29 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+      <div id="nav">
+        <Navigation />
+      </div>
+      <Header />
+      <router-view></router-view>
+      <hr class="mt-5">
+      <Foot />
   </div>
 </template>
+
+<script>
+import Navigation from "./components/Navigation.vue"
+import Foot from "./components/Foot.vue"
+
+export default ({
+  components: {
+    Navigation,
+    Foot,
+  },
+})
+</script>
+
+
+
 
 <style lang="scss">
 #app {
@@ -25,7 +42,7 @@
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #42b983; 
     }
   }
 }
