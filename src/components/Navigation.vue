@@ -18,6 +18,10 @@
                     <li class="nav-item" role="presentation">
                       <router-link to="/post/1">Último post</router-link>
                     </li>
+                    <li class="nav-item" role="presentation">
+                      <router-link to="/admin/avanzado">Administrador</router-link>
+                    </li>
+
                 </ul>
           </div>
         </div>
