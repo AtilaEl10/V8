@@ -1,3 +1,10 @@
+Este proyecto consta de dos partes, cada una desarrollada según los requisitos de Desafio Latam
+
+El "primer commit" corresponde a la parte 1 del desafio
+
+Mientras que el commit "Desafio parte 2" cuenta con la segunda parte.
+
+
 # v-eight
 
 ## Project setup
